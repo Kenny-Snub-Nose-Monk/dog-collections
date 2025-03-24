@@ -53,7 +53,7 @@
   - 快取狀態指示器
   - 離線時回退到快取數據
 - **延遲加載**：圖片僅在滾動到視圖中時加載
-  - 自定義 Intersection Observer 鉤子
+  - 自定義 Intersection Observer Hook
   - 加載中佔位元素
   - 圖片加載追蹤
 - **去抖動**：搜尋輸入去抖動以防止過多的 API 呼叫
@@ -109,20 +109,20 @@
 
 ### 延遲加載
 
-- 自定義 `useIntersectionObserver` 鉤子，用於檢測元素何時進入視口
+- 自定義 `useIntersectionObserver` Hook，用於檢測元素何時進入視口
 - 僅在變為可見時才加載圖片的 `LazyImage` 組件
 - 帶微光效果的加載佔位符
 - 圖片加載追蹤以監控加載進度
 
 ### 去抖動
 
-- 自定義 `useDebounce` 鉤子，防止過多的 API 呼叫
+- 自定義 `useDebounce` Hook，防止過多的 API 呼叫
 - 去抖動活動時的視覺指示器
 - 優化搜尋體驗，最小化 API 請求
 
 ### URL 參數管理
 
-- 自定義 `useUrlSearchParams` 鉤子，用於管理 URL 參數
+- 自定義 `useUrlSearchParams` Hook，用於管理 URL 參數
 - 在導航過程中保留搜尋狀態
 - 支持分享特定視圖的深度連結
 - 無頁面重載的瀏覽器歷史整合
