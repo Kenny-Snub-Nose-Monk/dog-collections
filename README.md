@@ -9,7 +9,7 @@
 1. 專案到本地：
 
    ```bash
-   git clone [專案庫網址]
+   git clone [[專案庫網址]](https://github.com/Kenny-Snub-Nose-Monk/dog-collections.git)
    cd dog-breed-gallery
    ```
 
@@ -22,7 +22,7 @@
 3. 啟動開發服務器：
 
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
 4. 開啟瀏覽器訪問 `http://localhost:3000`
